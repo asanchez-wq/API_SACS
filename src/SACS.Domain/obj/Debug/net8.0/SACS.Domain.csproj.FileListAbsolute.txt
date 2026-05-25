@@ -1,0 +1,11 @@
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\SACS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\SACS.Domain.AssemblyInfoInputs.cache
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\SACS.Domain.AssemblyInfo.cs
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\SACS.Domain.csproj.CoreCompileInputs.cache
+D:\Proyectos_Personales\sacs\src\SACS.Domain\bin\Debug\net8.0\SACS.Domain.deps.json
+D:\Proyectos_Personales\sacs\src\SACS.Domain\bin\Debug\net8.0\SACS.Domain.dll
+D:\Proyectos_Personales\sacs\src\SACS.Domain\bin\Debug\net8.0\SACS.Domain.pdb
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\SACS.Domain.dll
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\refint\SACS.Domain.dll
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\SACS.Domain.pdb
+D:\Proyectos_Personales\sacs\src\SACS.Domain\obj\Debug\net8.0\ref\SACS.Domain.dll

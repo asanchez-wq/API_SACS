@@ -1,0 +1,1222 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_6",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.ActividadesEventosEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/actividades_eventos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "actividades_eventos"
+    ],
+    "EndpointName": "GetActividadesEventos",
+    "Description": "Obtiene actividades y eventos con datos expandidos (periodo, nivel acad\u00E9mico, tipo grado, tipo grupo)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.ActividadesEventosEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/actividades_eventos/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "actividades_eventos"
+    ],
+    "EndpointName": "GetActividadEventoById",
+    "Description": "Obtiene una actividad o evento por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.AsistenciaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/asistencia/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Asistencia"
+    ],
+    "EndpointName": "GetAsistencias",
+    "Description": "Obtiene asistencias con datos expandidos (alumno, periodo, grupo, curso, docente)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.AsistenciaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/asistencia/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Asistencia"
+    ],
+    "EndpointName": "GetAsistenciaById",
+    "Description": "Obtiene una asistencia por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.AsistenciasManualesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/asistencias-manuales/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "AsistenciasManuales"
+    ],
+    "EndpointName": "GetAsistenciasManuales",
+    "Description": "Obtiene asistencias manuales con datos expandidos (periodo, grupo, alumno, curso, trimestre)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.AsistenciasManualesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/asistencias-manuales/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "AsistenciasManuales"
+    ],
+    "EndpointName": "GetAsistenciaManualById",
+    "Description": "Obtiene una asistencia manual por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.CitacionesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/citaciones/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "citaciones"
+    ],
+    "EndpointName": "GetCitaciones",
+    "Description": "Obtiene citaciones con datos expandidos (periodo, grupo, alumno, docente, h\u00E1bito/actitud, trimestre)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.CitacionesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/citaciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "citaciones"
+    ],
+    "EndpointName": "GetCitacionById",
+    "Description": "Obtiene una citaci\u00F3n por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.EvaluacionExternaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/evaluacion_externa/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "evaluacion_externa"
+    ],
+    "EndpointName": "GetEvaluacionesExternas",
+    "Description": "Obtiene evaluaciones externas con datos expandidos (periodo, grupo, herramienta did\u00E1ctica, docente)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.EvaluacionExternaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/evaluacion_externa/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "evaluacion_externa"
+    ],
+    "EndpointName": "GetEvaluacionExternaById",
+    "Description": "Obtiene una evaluaci\u00F3n externa por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.EvaluacionEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/evaluacion/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "evaluacion"
+    ],
+    "EndpointName": "GetEvaluaciones",
+    "Description": "Obtiene evaluaciones con datos expandidos (grupo, curso, docente, tipo evaluaci\u00F3n, periodo)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.EvaluacionEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/evaluacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "evaluacion"
+    ],
+    "EndpointName": "GetEvaluacionById",
+    "Description": "Obtiene una evaluaci\u00F3n por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.MatriculasEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/matriculas/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "matriculas"
+    ],
+    "EndpointName": "GetMatriculas",
+    "Description": "Obtiene matr\u00EDculas con datos expandidos (alumno, grupo, periodo)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.MatriculasEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/matriculas/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "matriculas"
+    ],
+    "EndpointName": "GetMatriculaById",
+    "Description": "Obtiene una matr\u00EDcula por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.MatriculasEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_2",
+    "RelativePath": "api/matriculas/identificacion/{identificacion}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "identificacion",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "matriculas"
+    ],
+    "EndpointName": "GetMatriculaByIdentificacion",
+    "Description": "Obtiene una matr\u00EDcula por identificaci\u00F3n del alumno con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.NotasExternaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/notas-externa/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "notas-externa"
+    ],
+    "EndpointName": "GetNotasExternas",
+    "Description": "Obtiene notas externas con datos expandidos (periodo, grupo, alumno, curso, trimestre)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.NotasExternaEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/notas-externa/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "notas-externa"
+    ],
+    "EndpointName": "GetNotaExternaById",
+    "Description": "Obtiene una nota externa por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.NotasManualesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/notas-manuales/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "notas-manuales"
+    ],
+    "EndpointName": "GetNotasManuales",
+    "Description": "Obtiene notas manuales con datos expandidos (periodo, grupo, alumno, curso, trimestre)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.NotasManualesEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/notas-manuales/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "notas-manuales"
+    ],
+    "EndpointName": "GetNotaManualById",
+    "Description": "Obtiene una nota manual por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.NotasEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/notas/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "notas"
+    ],
+    "EndpointName": "GetNotasPaged",
+    "Description": "Obtiene notas con informaci\u00F3n expandida (alumno, evaluaci\u00F3n, curso, periodo)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.NotasEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/notas/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "notas"
+    ],
+    "EndpointName": "GetNotasById",
+    "Description": "Obtiene una nota por ID con informaci\u00F3n expandida"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PeriodosXGruposEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/periodos-x-grupos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "periodos-x-grupos"
+    ],
+    "EndpointName": "GetPeriodosXGrupos",
+    "Description": "Obtiene periodos por grupos con datos expandidos (periodo, nivel acad\u00E9mico, tipo grado, tipo grupo, docente)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PeriodosXGruposEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/periodos-x-grupos/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "periodos-x-grupos"
+    ],
+    "EndpointName": "GetPeriodoXGrupoById",
+    "Description": "Obtiene un periodo por grupo por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PeriodosXHorariosEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/periodos-x-horarios/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "periodos-x-horarios"
+    ],
+    "EndpointName": "GetPeriodosXHorarios",
+    "Description": "Obtiene periodos por horarios con datos expandidos (periodo, grupo, curso, docente)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PeriodosXHorariosEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/periodos-x-horarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "periodos-x-horarios"
+    ],
+    "EndpointName": "GetPeriodoXHorarioById",
+    "Description": "Obtiene un periodo por horario por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PeriodosEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/periodos/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "periodos"
+    ],
+    "EndpointName": "GetPeriodos",
+    "Description": "Obtiene periodos con descripci\u00F3n de colegio"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PeriodosEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/periodos/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "periodos"
+    ],
+    "EndpointName": "GetPeriodoById",
+    "Description": "Obtiene un periodo por ID con descripci\u00F3n de colegio"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoObjetivoCritEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/planeamiento_didactico_objetivo_crit/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico_objetivo_crit"
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoObjetivoCritEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/planeamiento_didactico_objetivo_crit/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico_objetivo_crit"
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoObjetivoInstEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/planeamiento_didactico_objetivo_inst/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico_objetivo_inst"
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoObjetivoInstEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/planeamiento_didactico_objetivo_inst/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico_objetivo_inst"
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoObjetivoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/planeamiento_didactico_objetivo/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico_objetivo"
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoObjetivoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/planeamiento_didactico_objetivo/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico_objetivo"
+    ]
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_0",
+    "RelativePath": "api/planeamiento_didactico/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico"
+    ],
+    "EndpointName": "GetPlaneamientosDidacticos",
+    "Description": "Obtiene planeamientos did\u00E1cticos con datos expandidos (periodo, nivel acad\u00E9mico, tipo grado, curso, docente)"
+  },
+  {
+    "ContainingType": "SACS.Api.Endpoints.PlaneamientoDidacticoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMap\u003Eb__0_1",
+    "RelativePath": "api/planeamiento_didactico/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "planeamiento_didactico"
+    ],
+    "EndpointName": "GetPlaneamientoDidacticoById",
+    "Description": "Obtiene un planeamiento did\u00E1ctico por ID con datos expandidos"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__8",
+    "RelativePath": "auth/token",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

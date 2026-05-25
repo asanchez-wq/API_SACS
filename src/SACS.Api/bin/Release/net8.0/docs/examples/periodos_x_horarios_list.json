@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {
+      "id": 3,
+      "periodoId": 1,
+      "horario": "Lunes 9:00 - 11:00",
+      "aula": "Aula 5"
+    }
+  ],
+  "total": 1
+}

@@ -1,0 +1,241 @@
+2025-12-18 10:47:04.780 -06:00 [INF] Starting web host
+2025-12-18 10:47:05.199 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 10:47:06.278 -06:00 [INF] Now listening on: https://localhost:52165
+2025-12-18 10:47:06.283 -06:00 [INF] Now listening on: http://localhost:52166
+2025-12-18 10:47:06.313 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 10:47:06.510 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 10:47:06.515 -06:00 [INF] Hosting environment: Development
+2025-12-18 10:47:06.521 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-18 10:47:18.084 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-12-18 10:47:22.037 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-18 10:47:22.070 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-18 10:47:22.076 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-18 10:47:22.079 -06:00 [INF] HTTP GET / responded 302 in 3614.6293 ms
+2025-12-18 10:47:22.089 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 4011.9368ms
+2025-12-18 10:47:22.139 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.html - null null
+2025-12-18 10:47:22.355 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 92.2930 ms
+2025-12-18 10:47:22.365 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.html - 200 null text/html;charset=utf-8 226.7159ms
+2025-12-18 10:47:22.372 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.css - null null
+2025-12-18 10:47:22.374 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui-bundle.js - null null
+2025-12-18 10:47:22.374 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-18 10:47:22.372 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-12-18 10:47:22.372 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui.css - null null
+2025-12-18 10:47:22.405 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-18 10:47:22.434 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.js - null null
+2025-12-18 10:47:22.480 -06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 3.4567 ms
+2025-12-18 10:47:22.480 -06:00 [INF] HTTP GET /swagger/index.css responded 304 in 11.9598 ms
+2025-12-18 10:47:22.486 -06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 13.8067 ms
+2025-12-18 10:47:22.500 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui-standalone-preset.js - 304 null null 126.2693ms
+2025-12-18 10:47:22.486 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-12-18 10:47:22.488 -06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 1.3685 ms
+2025-12-18 10:47:22.496 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.9789 ms
+2025-12-18 10:47:22.551 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 147.4582ms
+2025-12-18 10:47:22.552 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.css - 304 null null 180.4431ms
+2025-12-18 10:47:22.559 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui-bundle.js - 304 null null 185.5292ms
+2025-12-18 10:47:22.573 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 92.8064 ms
+2025-12-18 10:47:22.578 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui.css - 304 null null 206.8786ms
+2025-12-18 10:47:22.586 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.js - 200 null application/javascript;charset=utf-8 152.1257ms
+2025-12-18 10:47:22.616 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 244.1613ms
+2025-12-18 10:47:23.945 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-12-18 10:47:23.945 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-12-18 10:47:23.962 -06:00 [INF] CORS policy execution failed.
+2025-12-18 10:47:23.965 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-12-18 10:47:23.988 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-18 10:47:24.127 -06:00 [INF] Setting HTTP status code 200.
+2025-12-18 10:47:24.134 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-18 10:47:24.142 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-18 10:47:24.146 -06:00 [INF] HTTP POST /auth/token responded 200 in 162.2145 ms
+2025-12-18 10:47:24.153 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 208.7882ms
+2025-12-18 10:47:25.906 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1962.5518ms
+2025-12-18 10:47:25.959 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-12-18 10:47:25.977 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/favicon-32x32.png - null null
+2025-12-18 10:47:25.986 -06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 304 in 0.5669 ms
+2025-12-18 10:47:25.992 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 26.5838 ms
+2025-12-18 10:47:25.994 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/favicon-32x32.png - 304 null null 18.0762ms
+2025-12-18 10:47:26.000 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 42.1165ms
+2025-12-18 11:08:27.765 -06:00 [INF] Starting web host
+2025-12-18 11:08:29.333 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 11:08:32.265 -06:00 [INF] Now listening on: https://localhost:52165
+2025-12-18 11:08:32.337 -06:00 [INF] Now listening on: http://localhost:52166
+2025-12-18 11:08:32.421 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 11:08:33.068 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 11:08:33.103 -06:00 [INF] Hosting environment: Development
+2025-12-18 11:08:33.127 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-18 11:08:53.161 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-12-18 11:08:55.002 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-18 11:08:55.051 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-18 11:08:55.109 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-18 11:08:55.126 -06:00 [INF] HTTP GET / responded 302 in 767.6295 ms
+2025-12-18 11:08:55.166 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 2044.0744ms
+2025-12-18 11:08:55.190 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-18 11:08:55.261 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 71.0222ms
+2025-12-18 11:08:55.278 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-12-18 11:08:55.278 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-12-18 11:08:55.323 -06:00 [INF] CORS policy execution failed.
+2025-12-18 11:08:55.364 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-12-18 11:08:55.404 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-18 11:08:55.666 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 387.7126ms
+2025-12-18 11:08:55.713 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-12-18 11:08:55.724 -06:00 [INF] Setting HTTP status code 200.
+2025-12-18 11:08:55.857 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-18 11:08:55.911 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-18 11:08:55.930 -06:00 [INF] HTTP POST /auth/token responded 200 in 534.4046 ms
+2025-12-18 11:08:55.977 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 698.5527ms
+2025-12-18 11:08:56.469 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 121.7498 ms
+2025-12-18 11:08:56.623 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 909.8564ms
+2025-12-18 12:30:01.266 -06:00 [INF] Starting web host
+2025-12-18 12:30:01.985 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 12:30:03.487 -06:00 [INF] Now listening on: https://localhost:52165
+2025-12-18 12:30:03.492 -06:00 [INF] Now listening on: http://localhost:52166
+2025-12-18 12:30:03.528 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 12:30:03.904 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 12:30:03.911 -06:00 [INF] Hosting environment: Development
+2025-12-18 12:30:03.914 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-18 12:30:16.458 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-12-18 12:30:17.777 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-18 12:30:17.816 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-18 12:30:17.824 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-18 12:30:17.839 -06:00 [INF] HTTP GET / responded 302 in 329.6062 ms
+2025-12-18 12:30:17.868 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1466.5887ms
+2025-12-18 12:30:17.903 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-18 12:30:17.960 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 57.7244ms
+2025-12-18 12:30:17.990 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-12-18 12:30:17.993 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-12-18 12:30:18.011 -06:00 [INF] CORS policy execution failed.
+2025-12-18 12:30:18.016 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-12-18 12:30:18.033 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-18 12:30:18.224 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 231.3242ms
+2025-12-18 12:30:18.246 -06:00 [INF] Setting HTTP status code 200.
+2025-12-18 12:30:18.274 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-12-18 12:30:18.302 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-18 12:30:18.325 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-18 12:30:18.336 -06:00 [INF] HTTP POST /auth/token responded 200 in 310.7497 ms
+2025-12-18 12:30:18.349 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 359.1934ms
+2025-12-18 12:30:18.763 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 100.0613 ms
+2025-12-18 12:30:18.772 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 499.0177ms
+2025-12-18 18:21:38.086 -06:00 [INF] Starting web host
+2025-12-18 18:21:38.697 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 18:21:39.776 -06:00 [INF] Now listening on: https://localhost:52165
+2025-12-18 18:21:39.781 -06:00 [INF] Now listening on: http://localhost:52166
+2025-12-18 18:21:39.807 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 18:21:40.068 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 18:21:40.074 -06:00 [INF] Hosting environment: Development
+2025-12-18 18:21:40.079 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-18 18:21:47.192 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-12-18 18:21:48.726 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-18 18:21:48.748 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-18 18:21:48.753 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-18 18:21:48.760 -06:00 [INF] HTTP GET / responded 302 in 321.4136 ms
+2025-12-18 18:21:48.780 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1628.4799ms
+2025-12-18 18:21:51.628 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-12-18 18:21:51.630 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-12-18 18:21:51.629 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-18 18:21:51.653 -06:00 [INF] CORS policy execution failed.
+2025-12-18 18:21:51.673 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-12-18 18:21:51.697 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-18 18:21:51.719 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 90.0454ms
+2025-12-18 18:21:51.831 -06:00 [INF] Setting HTTP status code 200.
+2025-12-18 18:21:51.852 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-18 18:21:51.867 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-18 18:21:51.871 -06:00 [INF] HTTP POST /auth/token responded 200 in 183.1713 ms
+2025-12-18 18:21:51.877 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 249.3943ms
+2025-12-18 18:21:52.428 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 798.1948ms
+2025-12-18 18:21:52.628 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-12-18 18:21:53.053 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 91.8859 ms
+2025-12-18 18:21:53.064 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 436.7534ms
+2025-12-18 18:22:52.737 -06:00 [INF] Starting web host
+2025-12-18 18:22:53.572 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 18:22:55.167 -06:00 [WRN] Overriding address(es) 'http://localhost:5011'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-12-18 18:22:55.302 -06:00 [INF] Now listening on: http://localhost:5011
+2025-12-18 18:22:55.336 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 18:22:55.713 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 18:22:55.722 -06:00 [INF] Hosting environment: Development
+2025-12-18 18:22:55.726 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-18 18:23:13.988 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/ - null null
+2025-12-18 18:23:15.139 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-18 18:23:15.166 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-18 18:23:15.171 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-18 18:23:15.180 -06:00 [INF] HTTP GET / responded 302 in 283.6643 ms
+2025-12-18 18:23:15.230 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/ - 302 0 null 1290.7176ms
+2025-12-18 18:23:15.247 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger - null null
+2025-12-18 18:23:15.610 -06:00 [INF] HTTP GET /swagger responded 301 in 3.2760 ms
+2025-12-18 18:23:15.617 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger - 301 0 null 372.4831ms
+2025-12-18 18:23:15.629 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.html - null null
+2025-12-18 18:23:15.929 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 279.9827 ms
+2025-12-18 18:23:15.939 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.html - 200 null text/html;charset=utf-8 310.1868ms
+2025-12-18 18:23:16.005 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/swagger-ui.css - null null
+2025-12-18 18:23:16.020 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/swagger-ui-bundle.js - null null
+2025-12-18 18:23:16.033 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-18 18:23:16.008 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger-ui/swagger-custom.js - null null
+2025-12-18 18:23:16.005 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.css - null null
+2025-12-18 18:23:16.041 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/index.js - null null
+2025-12-18 18:23:16.098 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 15.9888 ms
+2025-12-18 18:23:16.125 -06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 88.5215 ms
+2025-12-18 18:23:16.123 -06:00 [INF] Sending file. Request path: '/swagger-ui/swagger-custom.js'. Physical path: 'D:\Proyectos_Personales\sacs\src\SACS.Api\wwwroot\swagger-ui\swagger-custom.js'
+2025-12-18 18:23:16.175 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/swagger-ui.css - 200 23647 text/css 170.3962ms
+2025-12-18 18:23:16.182 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 200 in 119.5792 ms
+2025-12-18 18:23:16.195 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/auth/token - null 0
+2025-12-18 18:23:16.206 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger-ui/swagger-custom.js - 200 2899 text/javascript 197.4398ms
+2025-12-18 18:23:16.123 -06:00 [INF] HTTP GET /swagger/index.css responded 200 in 52.8462 ms
+2025-12-18 18:23:16.131 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.js - 200 null application/javascript;charset=utf-8 90.3898ms
+2025-12-18 18:23:16.202 -06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 153.7488 ms
+2025-12-18 18:23:16.202 -06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 146.6146 ms
+2025-12-18 18:23:16.220 -06:00 [INF] CORS policy execution failed.
+2025-12-18 18:23:16.225 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-18 18:23:16.231 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/index.css - 200 152 text/css 226.7956ms
+2025-12-18 18:23:16.241 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-12-18 18:23:16.248 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 228.1248ms
+2025-12-18 18:23:16.252 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 224.6466ms
+2025-12-18 18:23:16.254 -06:00 [INF] Request origin http://localhost:5011 does not have permission to access the resource.
+2025-12-18 18:23:16.268 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 42.4872ms
+2025-12-18 18:23:16.307 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-18 18:23:16.375 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.5449ms
+2025-12-18 18:23:16.418 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-12-18 18:23:16.424 -06:00 [INF] Setting HTTP status code 200.
+2025-12-18 18:23:16.438 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/favicon-32x32.png - null null
+2025-12-18 18:23:16.447 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-18 18:23:16.450 -06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 4.2178 ms
+2025-12-18 18:23:16.455 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/favicon-32x32.png - 200 628 image/png 17.335ms
+2025-12-18 18:23:16.459 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-18 18:23:16.472 -06:00 [INF] HTTP POST /auth/token responded 200 in 168.3615 ms
+2025-12-18 18:23:16.478 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/auth/token - 200 null application/json; charset=utf-8 282.916ms
+2025-12-18 18:23:16.490 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 63.1371 ms
+2025-12-18 18:23:16.497 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 79.2002ms
+2025-12-18 21:16:17.110 -06:00 [INF] Starting web host
+2025-12-18 21:16:17.325 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 21:16:17.902 -06:00 [WRN] Overriding address(es) 'http://localhost:5011'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-12-18 21:16:17.956 -06:00 [INF] Now listening on: http://localhost:5011
+2025-12-18 21:16:17.969 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 21:16:18.080 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 21:16:18.083 -06:00 [INF] Hosting environment: Development
+2025-12-18 21:16:18.086 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-18 21:16:32.905 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/ - null null
+2025-12-18 21:16:36.774 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-18 21:16:36.812 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-18 21:16:36.818 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-18 21:16:36.829 -06:00 [INF] HTTP GET / responded 302 in 3704.8987 ms
+2025-12-18 21:16:36.873 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/ - 302 0 null 3978.3634ms
+2025-12-18 21:16:36.890 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-18 21:16:36.908 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 19.3367ms
+2025-12-18 21:16:36.919 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/auth/token - null 0
+2025-12-18 21:16:36.920 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-12-18 21:16:36.941 -06:00 [INF] CORS policy execution failed.
+2025-12-18 21:16:36.949 -06:00 [INF] Request origin http://localhost:5011 does not have permission to access the resource.
+2025-12-18 21:16:36.960 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-18 21:16:37.002 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.5241ms
+2025-12-18 21:16:37.058 -06:00 [INF] Setting HTTP status code 200.
+2025-12-18 21:16:37.072 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-18 21:16:37.081 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-18 21:16:37.084 -06:00 [INF] HTTP POST /auth/token responded 200 in 129.7674 ms
+2025-12-18 21:16:37.091 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/auth/token - 200 null application/json; charset=utf-8 171.9579ms
+2025-12-18 21:16:37.868 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-12-18 21:16:37.947 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 66.7452 ms
+2025-12-18 21:16:37.956 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 88.0363ms
+2025-12-18 21:37:04.915 -06:00 [INF] Starting web host
+2025-12-18 21:37:05.704 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-18 21:37:06.943 -06:00 [WRN] Overriding address(es) 'http://localhost:5011'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-12-18 21:37:07.072 -06:00 [INF] Now listening on: http://localhost:5011
+2025-12-18 21:37:07.114 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-18 21:37:07.465 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-18 21:37:07.470 -06:00 [INF] Hosting environment: Development
+2025-12-18 21:37:07.474 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api

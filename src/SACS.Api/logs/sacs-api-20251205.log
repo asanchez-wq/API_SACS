@@ -1,0 +1,73 @@
+2025-12-05 13:57:49.739 -06:00 [INF] Starting web host
+2025-12-05 13:57:50.681 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-05 13:57:51.026 -06:00 [INF] Creating key {97d38e0e-73e1-4328-8dfd-f518d6aec8f9} with creation date 2025-12-05 19:57:51Z, activation date 2025-12-05 19:57:50Z, and expiration date 2026-03-05 19:57:50Z.
+2025-12-05 13:57:51.068 -06:00 [INF] Writing data to file 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys\key-97d38e0e-73e1-4328-8dfd-f518d6aec8f9.xml'.
+2025-12-05 13:57:52.544 -06:00 [INF] Now listening on: https://localhost:52165
+2025-12-05 13:57:52.549 -06:00 [INF] Now listening on: http://localhost:52166
+2025-12-05 13:57:52.596 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-05 13:57:52.958 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-05 13:57:52.965 -06:00 [INF] Hosting environment: Development
+2025-12-05 13:57:52.970 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-05 13:57:59.110 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-12-05 13:58:04.169 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-05 13:58:04.217 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-05 13:58:04.223 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-05 13:58:04.237 -06:00 [INF] HTTP GET / responded 302 in 4077.7513 ms
+2025-12-05 13:58:04.266 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 5199.2218ms
+2025-12-05 13:58:04.298 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.html - null null
+2025-12-05 13:58:04.599 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 263.6304 ms
+2025-12-05 13:58:04.610 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.html - 200 null text/html;charset=utf-8 311.9565ms
+2025-12-05 13:58:04.674 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui.css - null null
+2025-12-05 13:58:04.676 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui-standalone-preset.js - null null
+2025-12-05 13:58:04.674 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui-bundle.js - null null
+2025-12-05 13:58:04.674 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-05 13:58:04.674 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.css - null null
+2025-12-05 13:58:04.676 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.js - null null
+2025-12-05 13:58:04.787 -06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 66.8391 ms
+2025-12-05 13:58:04.804 -06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 67.4973 ms
+2025-12-05 13:58:04.787 -06:00 [INF] HTTP GET /swagger/index.css responded 304 in 21.2380 ms
+2025-12-05 13:58:04.787 -06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 72.8208 ms
+2025-12-05 13:58:04.674 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-12-05 13:58:04.839 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 2.0594 ms
+2025-12-05 13:58:04.840 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 165.9466ms
+2025-12-05 13:58:04.844 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui-standalone-preset.js - 304 null null 167.8493ms
+2025-12-05 13:58:04.852 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui-bundle.js - 304 null null 177.8843ms
+2025-12-05 13:58:04.859 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.css - 304 null null 185.6011ms
+2025-12-05 13:58:04.866 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui.css - 304 null null 192.7862ms
+2025-12-05 13:58:04.883 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.js - 200 null application/javascript;charset=utf-8 206.9452ms
+2025-12-05 13:58:04.888 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-12-05 13:58:04.947 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 71.1168 ms
+2025-12-05 13:58:04.953 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 279.435ms
+2025-12-05 13:58:04.964 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-12-05 13:58:04.966 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-12-05 13:58:04.987 -06:00 [INF] CORS policy execution failed.
+2025-12-05 13:58:04.991 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-12-05 13:58:05.179 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-05 13:58:05.432 -06:00 [INF] Setting HTTP status code 200.
+2025-12-05 13:58:05.453 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-05 13:58:05.464 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-05 13:58:05.470 -06:00 [INF] HTTP POST /auth/token responded 200 in 297.7295 ms
+2025-12-05 13:58:05.477 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 511.2298ms
+2025-12-05 13:58:11.792 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6828.5965ms
+2025-12-05 13:58:11.856 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-12-05 13:58:11.865 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/favicon-32x32.png - null null
+2025-12-05 13:58:11.879 -06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 304 in 0.7931 ms
+2025-12-05 13:58:11.887 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/favicon-32x32.png - 304 null null 23.1158ms
+2025-12-05 13:58:11.943 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 72.9910 ms
+2025-12-05 13:58:11.958 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.4269ms
+2025-12-05 14:02:12.783 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-12-05 14:02:12.820 -06:00 [INF] CORS policy execution failed.
+2025-12-05 14:02:12.823 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-12-05 14:02:12.974 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-05 14:02:12.979 -06:00 [INF] Setting HTTP status code 200.
+2025-12-05 14:02:12.983 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-05 14:02:12.988 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-05 14:02:12.991 -06:00 [INF] HTTP POST /auth/token responded 200 in 165.0866 ms
+2025-12-05 14:02:13.003 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 219.6758ms
+2025-12-05 14:02:30.460 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/matriculas?limit=50&offset=0&desc=false - null null
+2025-12-05 14:02:30.487 -06:00 [INF] Executing endpoint 'HTTP: GET /api/matriculas/'
+2025-12-05 14:02:32.746 -06:00 [INF] Setting HTTP status code 200.
+2025-12-05 14:02:32.832 -06:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-12-05 14:02:32.904 -06:00 [INF] Executed endpoint 'HTTP: GET /api/matriculas/'
+2025-12-05 14:02:32.913 -06:00 [INF] HTTP GET /api/matriculas responded 200 in 2442.2560 ms
+2025-12-05 14:02:32.920 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/matriculas?limit=50&offset=0&desc=false - 200 null application/json; charset=utf-8 2459.9724ms

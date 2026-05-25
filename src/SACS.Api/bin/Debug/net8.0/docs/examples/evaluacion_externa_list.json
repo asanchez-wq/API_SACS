@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {
+      "id": 7,
+      "nombre": "Evaluación externa A",
+      "descripcion": "Evaluador externo",
+      "fecha": "2025-07-01T10:00:00Z"
+    }
+  ],
+  "total": 1
+}

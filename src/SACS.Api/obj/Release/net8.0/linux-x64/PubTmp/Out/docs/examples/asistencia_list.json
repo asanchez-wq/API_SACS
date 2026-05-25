@@ -1,0 +1,16 @@
+[
+  {
+    "id": 100,
+    "matriculaId": 20,
+    "fecha": "2025-03-03T08:00:00Z",
+    "presente": true,
+    "observaciones": null
+  },
+  {
+    "id": 101,
+    "matriculaId": 21,
+    "fecha": "2025-03-03T08:00:00Z",
+    "presente": false,
+    "observaciones": "Enfermedad"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "rows": [
+    {
+      "id": 20,
+      "alumnoId": 321,
+      "curso": "Matemáticas",
+      "anio": 2025,
+      "estado": "Activa"
+    }
+  ],
+  "total": 1
+}

@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {
+      "id": 2,
+      "periodoId": 1,
+      "grupoId": 10,
+      "nombreGrupo": "Grupo A"
+    }
+  ],
+  "total": 1
+}

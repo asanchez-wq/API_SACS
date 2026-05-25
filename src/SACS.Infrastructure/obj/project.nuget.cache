@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zr74zkxDrpI=",
+  "success": true,
+  "projectFilePath": "D:\\Proyectos_Personales\\sacs\\src\\SACS.Infrastructure\\SACS.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://pkgs.dev.azure.com/IntergrupoAutomation/_packaging/Automation.Components/nuget/v3/index.json.",
+      "projectPath": "D:\\Proyectos_Personales\\sacs\\src\\SACS.Infrastructure\\SACS.Infrastructure.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Proyectos_Personales\\sacs\\src\\SACS.Infrastructure\\SACS.Infrastructure.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

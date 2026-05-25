@@ -1,0 +1,786 @@
+2025-11-13 12:24:11.490 -06:00 [INF] Starting web host
+2025-11-13 12:24:12.048 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 12:24:13.037 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 12:24:13.039 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 12:24:13.066 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 12:24:13.328 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 12:24:13.331 -06:00 [INF] Hosting environment: Development
+2025-11-13 12:24:13.335 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 12:24:16.504 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 12:24:20.245 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 12:24:20.281 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 12:24:20.287 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 12:24:20.297 -06:00 [INF] HTTP GET / responded 302 in 3523.1421 ms
+2025-11-13 12:24:20.325 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 3826.7712ms
+2025-11-13 12:24:20.342 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.html - null null
+2025-11-13 12:24:20.462 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 99.0178 ms
+2025-11-13 12:24:20.482 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.html - 200 null text/html;charset=utf-8 139.7276ms
+2025-11-13 12:24:20.488 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui-bundle.js - null null
+2025-11-13 12:24:20.517 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 12:24:20.495 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui-standalone-preset.js - null null
+2025-11-13 12:24:20.485 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/swagger-ui.css - null null
+2025-11-13 12:24:20.486 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.css - null null
+2025-11-13 12:24:20.604 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 86.483ms
+2025-11-13 12:24:20.518 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.js - null null
+2025-11-13 12:24:20.595 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 12:24:20.614 -06:00 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 304 in 42.0065 ms
+2025-11-13 12:24:20.614 -06:00 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 304 in 60.4777 ms
+2025-11-13 12:24:20.614 -06:00 [INF] HTTP GET /swagger/swagger-ui.css responded 304 in 3.6548 ms
+2025-11-13 12:24:20.646 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui-bundle.js - 304 null null 159.6968ms
+2025-11-13 12:24:20.642 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui-standalone-preset.js - 304 null null 146.8625ms
+2025-11-13 12:24:20.820 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/swagger-ui.css - 304 null null 335.6474ms
+2025-11-13 12:24:20.617 -06:00 [INF] HTTP GET /swagger/index.css responded 304 in 0.2502 ms
+2025-11-13 12:24:20.631 -06:00 [INF] HTTP GET /swagger/index.js responded 200 in 0.8534 ms
+2025-11-13 12:24:20.847 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.css - 304 null null 361.4092ms
+2025-11-13 12:24:20.851 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.js - 200 null application/javascript;charset=utf-8 333.3724ms
+2025-11-13 12:24:20.865 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 269.4805ms
+2025-11-13 12:24:21.496 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 12:24:21.517 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 15.1333 ms
+2025-11-13 12:24:21.523 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 26.567ms
+2025-11-13 12:24:21.560 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/favicon-32x32.png - null null
+2025-11-13 12:24:21.567 -06:00 [INF] HTTP GET /swagger/favicon-32x32.png responded 304 in 0.2130 ms
+2025-11-13 12:24:21.580 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/favicon-32x32.png - 304 null null 20.7644ms
+2025-11-13 12:41:50.346 -06:00 [INF] Starting web host
+2025-11-13 12:41:51.208 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 12:41:52.962 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 12:41:52.968 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 12:41:53.008 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 12:41:53.507 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 12:41:53.512 -06:00 [INF] Hosting environment: Development
+2025-11-13 12:41:53.516 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 12:41:54.918 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 12:41:56.028 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 12:41:56.086 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 12:41:56.091 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 12:41:56.101 -06:00 [INF] HTTP GET / responded 302 in 375.2858 ms
+2025-11-13 12:41:56.127 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1246.6673ms
+2025-11-13 12:41:56.187 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 12:41:56.251 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 64.63ms
+2025-11-13 12:41:56.275 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 12:41:56.423 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 148.8278ms
+2025-11-13 12:41:58.142 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 12:41:58.264 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 104.9025 ms
+2025-11-13 12:41:58.280 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.1745ms
+2025-11-13 12:44:36.905 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 12:44:36.958 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-13 12:44:36.980 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-13 12:44:36.984 -06:00 [INF] HTTP GET /api/asistencia responded 401 in 64.7056 ms
+2025-11-13 12:44:36.990 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 401 0 null 85.294ms
+2025-11-13 12:51:11.069 -06:00 [INF] Starting web host
+2025-11-13 12:51:12.009 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 12:51:13.797 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 12:51:13.802 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 12:51:13.833 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 12:51:14.339 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 12:51:14.355 -06:00 [INF] Hosting environment: Development
+2025-11-13 12:51:14.365 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 12:51:16.324 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 12:51:17.502 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 12:51:17.534 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 12:51:17.541 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 12:51:17.560 -06:00 [INF] HTTP GET / responded 302 in 302.8911 ms
+2025-11-13 12:51:17.602 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1313.5819ms
+2025-11-13 12:51:17.677 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 12:51:17.719 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 42.0974ms
+2025-11-13 12:51:17.801 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 12:51:18.011 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 210.8477ms
+2025-11-13 12:51:18.170 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 12:51:18.336 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 138.8449 ms
+2025-11-13 12:51:18.360 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 189.6589ms
+2025-11-13 12:51:38.322 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 12:51:38.361 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-13 12:51:38.383 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-13 12:51:38.389 -06:00 [INF] HTTP GET /api/asistencia responded 401 in 48.7579 ms
+2025-11-13 12:51:38.395 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 401 0 null 73.9486ms
+2025-11-13 12:52:13.999 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 12:52:14.016 -06:00 [INF] CORS policy execution failed.
+2025-11-13 12:52:14.020 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 12:52:14.036 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 12:52:14.354 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 12:52:14.380 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 12:52:14.394 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 12:52:14.398 -06:00 [INF] HTTP POST /auth/token responded 200 in 367.5902 ms
+2025-11-13 12:52:14.405 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 406.3087ms
+2025-11-13 12:52:32.057 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 12:52:32.256 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 12:52:34.331 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 12:52:34.349 -06:00 [ERR] HTTP GET /api/asistencia responded 500 in 2270.9630 ms
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgress�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgress�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 12:52:34.556 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgress�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgress�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 12:52:34.621 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 500 null text/plain; charset=utf-8 2565.2995ms
+2025-11-13 13:33:58.809 -06:00 [INF] Starting web host
+2025-11-13 13:33:59.755 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 13:34:01.464 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 13:34:01.470 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 13:34:01.562 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 13:34:01.920 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 13:34:01.927 -06:00 [INF] Hosting environment: Development
+2025-11-13 13:34:01.932 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 13:34:04.271 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 13:34:05.511 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 13:34:05.539 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 13:34:05.544 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 13:34:05.556 -06:00 [INF] HTTP GET / responded 302 in 286.5494 ms
+2025-11-13 13:34:05.584 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1379.0323ms
+2025-11-13 13:34:05.646 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 13:34:05.693 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 13:34:05.751 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 105.2701ms
+2025-11-13 13:34:05.877 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 184.2912ms
+2025-11-13 13:34:06.027 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 13:34:06.162 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 115.9188 ms
+2025-11-13 13:34:06.173 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.791ms
+2025-11-13 13:34:28.668 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 13:34:28.688 -06:00 [INF] CORS policy execution failed.
+2025-11-13 13:34:28.693 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 13:34:28.707 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 13:34:28.882 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 13:34:28.907 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 13:34:28.922 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 13:34:28.928 -06:00 [INF] HTTP POST /auth/token responded 200 in 226.3391 ms
+2025-11-13 13:34:28.936 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 268.9701ms
+2025-11-13 13:34:40.956 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 13:34:40.994 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-13 13:34:41.013 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-13 13:34:41.016 -06:00 [INF] HTTP GET /api/asistencia responded 401 in 47.0879 ms
+2025-11-13 13:34:41.022 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 401 0 null 67.2828ms
+2025-11-13 13:35:11.461 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 13:35:11.513 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-13 13:35:11.519 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-13 13:35:11.523 -06:00 [INF] HTTP GET /api/asistencia responded 401 in 15.7357 ms
+2025-11-13 13:35:11.530 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 401 0 null 69.6346ms
+2025-11-13 13:35:52.072 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 13:35:52.089 -06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-11-13 13:35:52.094 -06:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-11-13 13:35:52.097 -06:00 [INF] HTTP GET /api/asistencia responded 401 in 13.9322 ms
+2025-11-13 13:35:52.103 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 401 0 null 44.6568ms
+2025-11-13 13:36:56.998 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/index.html - null null
+2025-11-13 13:36:57.290 -06:00 [INF] HTTP GET /swagger/index.html responded 200 in 238.8768 ms
+2025-11-13 13:36:57.300 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/index.html - 200 null text/html;charset=utf-8 301.9663ms
+2025-11-13 13:36:57.340 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 13:36:57.352 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 13:36:57.352 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 13:36:57.447 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 87.9743ms
+2025-11-13 13:36:57.539 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 186.6884ms
+2025-11-13 13:36:57.611 -06:00 [INF] Sending file. Request path: '/swagger-ui/swagger-custom.js'. Physical path: 'D:\Proyectos_Personales\sacs\src\SACS.Api\wwwroot\swagger-ui\swagger-custom.js'
+2025-11-13 13:36:57.615 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 200 in 212.6161 ms
+2025-11-13 13:36:57.622 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 200 2899 text/javascript 284.1552ms
+2025-11-13 13:36:57.633 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 13:36:57.678 -06:00 [INF] CORS policy execution failed.
+2025-11-13 13:36:57.681 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 13:36:57.686 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 13:36:57.693 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 13:36:57.699 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 13:36:57.705 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 13:36:57.716 -06:00 [INF] HTTP POST /auth/token responded 200 in 30.6538 ms
+2025-11-13 13:36:57.727 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 94.4941ms
+2025-11-13 13:36:57.934 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 13:36:58.014 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 46.3044 ms
+2025-11-13 13:36:58.023 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.0365ms
+2025-11-13 13:50:29.976 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-11-13 13:50:30.016 -06:00 [INF] HTTP GET /.well-known/appspecific/com.chrome.devtools.json responded 404 in 2.7204 ms
+2025-11-13 13:50:30.022 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 51.934ms
+2025-11-13 13:50:30.033 -06:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:52165/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-11-13 13:50:48.667 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 13:50:48.677 -06:00 [INF] CORS policy execution failed.
+2025-11-13 13:50:48.681 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 13:50:48.857 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 13:50:48.865 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 13:50:48.868 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 13:50:48.871 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 13:50:48.875 -06:00 [INF] HTTP POST /auth/token responded 200 in 190.5536 ms
+2025-11-13 13:50:48.884 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 217.917ms
+2025-11-13 13:51:08.702 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 13:51:08.722 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 13:51:25.224 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 13:51:25.265 -06:00 [ERR] HTTP GET /api/asistencia responded 500 in 16546.7316 ms
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgress�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgress�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 13:51:25.458 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgress�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgress�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 13:51:25.519 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 500 null text/plain; charset=utf-8 16818.4016ms
+2025-11-13 14:03:17.004 -06:00 [INF] Starting web host
+2025-11-13 14:04:39.121 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 14:04:40.577 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 14:04:40.584 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 14:04:40.616 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 14:04:40.970 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 14:04:40.977 -06:00 [INF] Hosting environment: Development
+2025-11-13 14:04:40.984 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 14:04:42.175 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 14:04:43.432 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 14:04:43.467 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 14:04:43.472 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 14:04:43.485 -06:00 [INF] HTTP GET / responded 302 in 453.6030 ms
+2025-11-13 14:04:43.510 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1373.8251ms
+2025-11-13 14:04:43.538 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 14:04:43.543 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 14:04:43.610 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-11-13 14:04:43.683 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 119.8436 ms
+2025-11-13 14:04:43.687 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 147.3373ms
+2025-11-13 14:04:43.692 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 155.84ms
+2025-11-13 14:04:43.710 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 14:04:43.713 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:04:43.736 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:04:43.743 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:04:43.762 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:04:44.073 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 363.4723ms
+2025-11-13 14:04:44.100 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 14:04:44.119 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:04:44.144 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:04:44.159 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:04:44.167 -06:00 [INF] HTTP POST /auth/token responded 200 in 410.8792 ms
+2025-11-13 14:04:44.177 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 465.0941ms
+2025-11-13 14:04:44.206 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 96.6158 ms
+2025-11-13 14:04:44.215 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.1599ms
+2025-11-13 14:04:55.111 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 14:04:55.311 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:04:59.951 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:04:59.961 -06:00 [ERR] HTTP GET /api/asistencia responded 500 in 4836.6517 ms
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 14:05:00.086 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 14:05:00.159 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 500 null text/plain; charset=utf-8 5049.1066ms
+2025-11-13 14:35:27.777 -06:00 [INF] Starting web host
+2025-11-13 14:35:54.406 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 14:35:55.966 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 14:35:55.971 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 14:35:56.004 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 14:35:56.344 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 14:35:56.350 -06:00 [INF] Hosting environment: Development
+2025-11-13 14:35:56.353 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 14:35:57.103 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 14:35:58.150 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 14:35:58.179 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 14:35:58.186 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 14:35:58.196 -06:00 [INF] HTTP GET / responded 302 in 304.3131 ms
+2025-11-13 14:35:58.222 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1151.0946ms
+2025-11-13 14:35:58.261 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 14:35:58.261 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 14:35:58.321 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 60.6478ms
+2025-11-13 14:35:58.325 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-11-13 14:35:58.333 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 39.6489 ms
+2025-11-13 14:35:58.339 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 79.293ms
+2025-11-13 14:35:58.366 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:35:58.366 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 14:35:58.387 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:35:58.391 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:35:58.402 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:35:58.535 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 169.3312ms
+2025-11-13 14:35:58.545 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:35:58.569 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:35:58.586 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:35:58.592 -06:00 [INF] HTTP POST /auth/token responded 200 in 194.7017 ms
+2025-11-13 14:35:58.601 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 234.7871ms
+2025-11-13 14:35:58.609 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 14:35:58.693 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 73.7212 ms
+2025-11-13 14:35:58.703 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.3623ms
+2025-11-13 14:36:15.006 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:36:15.022 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:36:15.025 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:36:15.169 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:36:15.176 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:36:15.182 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:36:15.187 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:36:15.191 -06:00 [INF] HTTP POST /auth/token responded 200 in 162.4105 ms
+2025-11-13 14:36:15.197 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 192.0758ms
+2025-11-13 14:36:34.415 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 14:36:34.453 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:36:38.219 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:36:38.230 -06:00 [ERR] HTTP GET /api/asistencia responded 500 in 3798.1771 ms
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 14:36:38.347 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 28P01: la autentificaci�n password fall� para el usuario �postgres�
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 433
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: FATAL
+    SqlState: 28P01
+    MessageText: la autentificaci�n password fall� para el usuario �postgres�
+    File: auth.c
+    Line: 324
+    Routine: auth_failed
+2025-11-13 14:36:38.414 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 500 null text/plain; charset=utf-8 3999.7908ms
+2025-11-13 14:42:02.624 -06:00 [INF] Starting web host
+2025-11-13 14:42:05.793 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 14:42:07.106 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 14:42:07.111 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 14:42:07.140 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 14:42:07.523 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 14:42:07.528 -06:00 [INF] Hosting environment: Development
+2025-11-13 14:42:07.531 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 14:42:11.332 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 14:42:12.601 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 14:42:12.629 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 14:42:12.638 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 14:42:12.649 -06:00 [INF] HTTP GET / responded 302 in 389.3835 ms
+2025-11-13 14:42:12.678 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1380.4967ms
+2025-11-13 14:42:12.752 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 14:42:12.754 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 14:42:12.900 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 147.8497ms
+2025-11-13 14:42:12.909 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-11-13 14:42:12.956 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 117.1008 ms
+2025-11-13 14:42:12.966 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 14:42:12.972 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 232.0814ms
+2025-11-13 14:42:12.986 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:42:13.096 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:42:13.103 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:42:13.118 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:42:13.232 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 267.4436ms
+2025-11-13 14:42:13.387 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:42:13.403 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 14:42:13.449 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:42:13.530 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:42:13.537 -06:00 [INF] HTTP POST /auth/token responded 200 in 425.8828 ms
+2025-11-13 14:42:13.547 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 563.7422ms
+2025-11-13 14:42:13.595 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 92.0855 ms
+2025-11-13 14:42:13.607 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 213.9629ms
+2025-11-13 14:42:56.764 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:42:56.797 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:42:56.800 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:42:56.951 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:42:56.957 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:42:56.963 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:42:56.967 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:42:56.971 -06:00 [INF] HTTP POST /auth/token responded 200 in 166.5930 ms
+2025-11-13 14:42:56.976 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 214.5505ms
+2025-11-13 14:43:11.660 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 14:43:11.685 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:43:15.226 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:43:15.238 -06:00 [ERR] HTTP GET /api/asistencia responded 500 in 3567.9306 ms
+Npgsql.PostgresException (0x80004005): 42601: error de sintaxis en o cerca de «'id_asistencia'»
+
+POSITION: 10
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: error de sintaxis en o cerca de «'id_asistencia'»
+    Position: 10
+    File: scan.l
+    Line: 1248
+    Routine: scanner_yyerror
+2025-11-13 14:43:15.341 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Npgsql.PostgresException (0x80004005): 42601: error de sintaxis en o cerca de «'id_asistencia'»
+
+POSITION: 10
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at SACS.Infrastructure.Repos.BaseReadRepository.QueryAsync[T](String sql, Object param) in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\BaseReadRepository.cs:line 10
+   at SACS.Infrastructure.Repos.AsistenciaRepository.GetAllAsync() in D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\Repos\AsistenciaRepository.cs:line 26
+   at SACS.Api.Endpoints.AsistenciaEndpoints.<>c.<<Map>b__0_0>d.MoveNext() in D:\Proyectos_Personales\sacs\src\SACS.Api\Endpoints\AsistenciaEndpoints.cs:line 19
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+  Exception data:
+    Severity: ERROR
+    SqlState: 42601
+    MessageText: error de sintaxis en o cerca de «'id_asistencia'»
+    Position: 10
+    File: scan.l
+    Line: 1248
+    Routine: scanner_yyerror
+2025-11-13 14:43:15.401 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 500 null text/plain; charset=utf-8 3741.8291ms
+2025-11-13 14:49:12.065 -06:00 [INF] Starting web host
+2025-11-13 14:49:14.800 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 14:49:16.237 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 14:49:16.243 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 14:49:16.274 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 14:49:16.635 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 14:49:16.645 -06:00 [INF] Hosting environment: Development
+2025-11-13 14:49:16.648 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 14:49:17.643 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 14:49:18.676 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 14:49:18.700 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 14:49:18.706 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 14:49:18.717 -06:00 [INF] HTTP GET / responded 302 in 302.4562 ms
+2025-11-13 14:49:18.744 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1135.7229ms
+2025-11-13 14:49:18.766 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 14:49:18.766 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 14:49:18.832 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-11-13 14:49:18.834 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 68.3526ms
+2025-11-13 14:49:18.841 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 14:49:18.842 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 46.2935 ms
+2025-11-13 14:49:18.863 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 96.9876ms
+2025-11-13 14:49:18.867 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:49:18.907 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:49:18.911 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:49:18.922 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:49:18.992 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.2441ms
+2025-11-13 14:49:19.025 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 14:49:19.048 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:49:19.070 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:49:19.085 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:49:19.090 -06:00 [INF] HTTP POST /auth/token responded 200 in 172.0322 ms
+2025-11-13 14:49:19.095 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 228.3915ms
+2025-11-13 14:49:19.109 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 77.5513 ms
+2025-11-13 14:49:19.118 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 94.2369ms
+2025-11-13 14:49:32.430 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 14:49:32.453 -06:00 [INF] CORS policy execution failed.
+2025-11-13 14:49:32.458 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 14:49:32.610 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:49:32.617 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:49:32.623 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 14:49:32.628 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 14:49:32.631 -06:00 [INF] HTTP POST /auth/token responded 200 in 169.1009 ms
+2025-11-13 14:49:32.638 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 210.6315ms
+2025-11-13 14:49:50.106 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 14:49:50.143 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:49:56.534 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 14:49:56.588 -06:00 [INF] Writing value of type 'List`1' as Json.
+2025-11-13 14:49:56.777 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 14:49:56.784 -06:00 [INF] HTTP GET /api/asistencia responded 200 in 6658.6626 ms
+2025-11-13 14:49:56.789 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 200 null application/json; charset=utf-8 6683.4422ms
+2025-11-13 23:30:31.301 -06:00 [INF] Starting web host
+2025-11-13 23:30:47.904 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 23:30:49.697 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 23:30:49.703 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 23:30:49.751 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 23:30:50.160 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 23:30:50.167 -06:00 [INF] Hosting environment: Development
+2025-11-13 23:30:50.170 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 23:31:09.127 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 23:31:10.518 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 23:31:10.564 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 23:31:10.571 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 23:31:10.584 -06:00 [INF] HTTP GET / responded 302 in 412.5534 ms
+2025-11-13 23:31:10.621 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 1533.2136ms
+2025-11-13 23:31:10.671 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 23:31:10.671 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 23:31:10.785 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 114.1432ms
+2025-11-13 23:31:10.801 -06:00 [INF] Sending file. Request path: '/swagger-ui/swagger-custom.js'. Physical path: 'D:\Proyectos_Personales\sacs\src\SACS.Api\wwwroot\swagger-ui\swagger-custom.js'
+2025-11-13 23:31:10.805 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 200 in 112.0322 ms
+2025-11-13 23:31:10.812 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 200 2899 text/javascript 143.3514ms
+2025-11-13 23:31:11.018 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 23:31:11.020 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 23:31:11.053 -06:00 [INF] CORS policy execution failed.
+2025-11-13 23:31:11.073 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 23:31:11.091 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:31:11.247 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 23:31:11.270 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 23:31:11.285 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:31:11.290 -06:00 [INF] HTTP POST /auth/token responded 200 in 203.9861 ms
+2025-11-13 23:31:11.299 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 280.0792ms
+2025-11-13 23:31:13.449 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 2430.8122ms
+2025-11-13 23:31:13.598 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 23:31:13.690 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 82.2010 ms
+2025-11-13 23:31:13.701 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.7731ms
+2025-11-13 23:38:16.112 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 23:38:16.134 -06:00 [INF] CORS policy execution failed.
+2025-11-13 23:38:16.136 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 23:38:16.303 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:38:16.313 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 23:38:16.322 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 23:38:16.333 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:38:16.340 -06:00 [INF] HTTP POST /auth/token responded 200 in 200.2923 ms
+2025-11-13 23:38:16.354 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 246.1707ms
+2025-11-13 23:38:57.813 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 23:38:57.881 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 23:39:03.815 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 23:39:03.874 -06:00 [INF] Writing value of type 'List`1' as Json.
+2025-11-13 23:39:04.089 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 23:39:04.101 -06:00 [INF] HTTP GET /api/asistencia responded 200 in 6236.3552 ms
+2025-11-13 23:39:04.114 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 200 null application/json; charset=utf-8 6300.6341ms
+2025-11-13 23:49:16.508 -06:00 [INF] Starting web host
+2025-11-13 23:49:19.893 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-13 23:49:21.851 -06:00 [INF] Now listening on: https://localhost:52165
+2025-11-13 23:49:21.858 -06:00 [INF] Now listening on: http://localhost:52166
+2025-11-13 23:49:21.900 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-11-13 23:49:22.239 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-13 23:49:22.245 -06:00 [INF] Hosting environment: Development
+2025-11-13 23:49:22.253 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-11-13 23:49:28.031 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/ - null null
+2025-11-13 23:49:32.837 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-11-13 23:49:32.866 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-11-13 23:49:32.870 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-11-13 23:49:32.881 -06:00 [INF] HTTP GET / responded 302 in 3995.7288 ms
+2025-11-13 23:49:32.904 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/ - 302 0 null 4905.7445ms
+2025-11-13 23:49:32.958 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - null null
+2025-11-13 23:49:33.015 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-11-13 23:49:33.021 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 37.6465 ms
+2025-11-13 23:49:33.028 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger-ui/swagger-custom.js - 304 null text/javascript 70.6497ms
+2025-11-13 23:49:33.129 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 23:49:33.133 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-13 23:49:33.139 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/_vs/browserLink - null null
+2025-11-13 23:49:33.155 -06:00 [INF] CORS policy execution failed.
+2025-11-13 23:49:33.187 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 23:49:33.226 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 92.5719ms
+2025-11-13 23:49:33.238 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:49:33.372 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.9513ms
+2025-11-13 23:49:33.508 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 23:49:33.531 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 23:49:33.545 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:49:33.551 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - null null
+2025-11-13 23:49:33.553 -06:00 [INF] HTTP POST /auth/token responded 200 in 333.3845 ms
+2025-11-13 23:49:33.570 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 442.2484ms
+2025-11-13 23:49:33.636 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 72.1138 ms
+2025-11-13 23:49:33.645 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.7121ms
+2025-11-13 23:51:38.370 -06:00 [INF] Request starting HTTP/2 POST https://localhost:52165/auth/token - null 0
+2025-11-13 23:51:38.402 -06:00 [INF] CORS policy execution failed.
+2025-11-13 23:51:38.404 -06:00 [INF] Request origin https://localhost:52165 does not have permission to access the resource.
+2025-11-13 23:51:38.547 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:51:38.553 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 23:51:38.559 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-11-13 23:51:38.565 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-11-13 23:51:38.572 -06:00 [INF] HTTP POST /auth/token responded 200 in 163.9406 ms
+2025-11-13 23:51:38.582 -06:00 [INF] Request finished HTTP/2 POST https://localhost:52165/auth/token - 200 null application/json; charset=utf-8 218.071ms
+2025-11-13 23:52:00.063 -06:00 [INF] Request starting HTTP/2 GET https://localhost:52165/api/asistencia - null null
+2025-11-13 23:52:00.093 -06:00 [INF] Executing endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 23:52:06.558 -06:00 [INF] Setting HTTP status code 200.
+2025-11-13 23:52:06.614 -06:00 [INF] Writing value of type 'List`1' as Json.
+2025-11-13 23:52:06.861 -06:00 [INF] Executed endpoint 'HTTP: GET /api/asistencia/'
+2025-11-13 23:52:06.869 -06:00 [INF] HTTP GET /api/asistencia responded 200 in 6793.0991 ms
+2025-11-13 23:52:06.879 -06:00 [INF] Request finished HTTP/2 GET https://localhost:52165/api/asistencia - 200 null application/json; charset=utf-8 6816.9921ms

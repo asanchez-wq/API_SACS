@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {
+      "id": 11,
+      "titulo": "Unidad 1",
+      "descripcion": "Introducción al curso",
+      "periodoId": 1
+    }
+  ],
+  "total": 1
+}

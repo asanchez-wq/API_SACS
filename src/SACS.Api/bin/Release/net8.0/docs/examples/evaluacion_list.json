@@ -1,0 +1,11 @@
+{
+  "rows": [
+    {
+      "id": 5,
+      "nombre": "Parcial 1",
+      "descripcion": "Evaluación parcial I",
+      "fecha": "2025-06-10T09:00:00Z"
+    }
+  ],
+  "total": 1
+}

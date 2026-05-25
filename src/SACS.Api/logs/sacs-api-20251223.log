@@ -1,0 +1,73 @@
+2025-12-23 08:05:27.634 -06:00 [INF] Starting web host
+2025-12-23 08:05:28.604 -06:00 [INF] User profile is available. Using 'C:\Users\andre\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-23 08:05:30.169 -06:00 [WRN] Overriding address(es) 'http://localhost:5011'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-12-23 08:05:30.382 -06:00 [INF] Now listening on: http://localhost:5011
+2025-12-23 08:05:30.434 -06:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-12-23 08:05:30.819 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-23 08:05:30.824 -06:00 [INF] Hosting environment: Development
+2025-12-23 08:05:30.829 -06:00 [INF] Content root path: D:\Proyectos_Personales\sacs\src\SACS.Api
+2025-12-23 08:05:34.229 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/ - null null
+2025-12-23 08:05:39.446 -06:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-12-23 08:05:39.484 -06:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2025-12-23 08:05:39.489 -06:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-12-23 08:05:39.499 -06:00 [INF] HTTP GET / responded 302 in 3850.5714 ms
+2025-12-23 08:05:39.561 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/ - 302 0 null 5461.8139ms
+2025-12-23 08:05:39.601 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger-ui/swagger-custom.js - null null
+2025-12-23 08:05:39.601 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - null null
+2025-12-23 08:05:39.686 -06:00 [INF] The file /swagger-ui/swagger-custom.js was not modified
+2025-12-23 08:05:39.691 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 89.8009ms
+2025-12-23 08:05:39.693 -06:00 [INF] HTTP GET /swagger-ui/swagger-custom.js responded 304 in 58.9338 ms
+2025-12-23 08:05:39.705 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/_vs/browserLink - null null
+2025-12-23 08:05:39.710 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger-ui/swagger-custom.js - 304 null text/javascript 133.2603ms
+2025-12-23 08:05:39.730 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/auth/token - null 0
+2025-12-23 08:05:39.747 -06:00 [INF] CORS policy execution failed.
+2025-12-23 08:05:39.754 -06:00 [INF] Request origin http://localhost:5011 does not have permission to access the resource.
+2025-12-23 08:05:39.770 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-23 08:05:39.885 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/_vs/browserLink - 200 null text/javascript; charset=UTF-8 180.035ms
+2025-12-23 08:05:40.014 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - null null
+2025-12-23 08:05:40.050 -06:00 [INF] Setting HTTP status code 200.
+2025-12-23 08:05:40.071 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-23 08:05:40.084 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-23 08:05:40.089 -06:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 64.4978 ms
+2025-12-23 08:05:40.092 -06:00 [INF] HTTP POST /auth/token responded 200 in 329.3634 ms
+2025-12-23 08:05:40.098 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.6197ms
+2025-12-23 08:05:40.105 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/auth/token - 200 null application/json; charset=utf-8 375.5171ms
+2025-12-23 08:05:46.403 -06:00 [INF] Request starting HTTP/1.1 POST http://localhost:5011/auth/token - null 0
+2025-12-23 08:05:46.419 -06:00 [INF] CORS policy execution failed.
+2025-12-23 08:05:46.424 -06:00 [INF] Request origin http://localhost:5011 does not have permission to access the resource.
+2025-12-23 08:05:46.485 -06:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+ ---> System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'IDX10820: Invalid character found in Base64UrlEncoding. Character: '32', Encoding: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.')
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode(String input, Int32 offset, Int32 length, Byte[] output)
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoding.Decode[T](String input, Int32 offset, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(String rawString, Int32 startIndex, Int32 length, Func`3 action)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+   --- End of inner exception stack trace ---
+2025-12-23 08:05:46.555 -06:00 [INF] Bearer was not authenticated. Failure message: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+2025-12-23 08:05:46.559 -06:00 [INF] Executing endpoint 'HTTP: POST /auth/token'
+2025-12-23 08:05:46.562 -06:00 [INF] Setting HTTP status code 200.
+2025-12-23 08:05:46.566 -06:00 [INF] Writing value of type '<>f__AnonymousType1`1' as Json.
+2025-12-23 08:05:46.572 -06:00 [INF] Executed endpoint 'HTTP: POST /auth/token'
+2025-12-23 08:05:46.575 -06:00 [INF] HTTP POST /auth/token responded 200 in 147.2641 ms
+2025-12-23 08:05:46.579 -06:00 [INF] Request finished HTTP/1.1 POST http://localhost:5011/auth/token - 200 null application/json; charset=utf-8 176.5125ms
+2025-12-23 08:06:06.433 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/actividades_eventos?limit=50&offset=0&desc=false - null null
+2025-12-23 08:06:06.571 -06:00 [INF] Executing endpoint 'HTTP: GET /api/actividades_eventos/'
+2025-12-23 08:06:08.670 -06:00 [INF] Setting HTTP status code 200.
+2025-12-23 08:06:08.729 -06:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-12-23 08:06:08.765 -06:00 [INF] Executed endpoint 'HTTP: GET /api/actividades_eventos/'
+2025-12-23 08:06:08.776 -06:00 [INF] HTTP GET /api/actividades_eventos responded 200 in 2332.3991 ms
+2025-12-23 08:06:08.782 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/actividades_eventos?limit=50&offset=0&desc=false - 200 null application/json; charset=utf-8 2349.6517ms
+2025-12-23 08:06:18.897 -06:00 [INF] Request starting HTTP/1.1 GET http://localhost:5011/api/periodos?limit=50&offset=0&desc=false - null null
+2025-12-23 08:06:18.923 -06:00 [INF] Executing endpoint 'HTTP: GET /api/periodos/'
+2025-12-23 08:06:18.955 -06:00 [INF] Setting HTTP status code 200.
+2025-12-23 08:06:18.975 -06:00 [INF] Writing value of type '<>f__AnonymousType0`2' as Json.
+2025-12-23 08:06:18.997 -06:00 [INF] Executed endpoint 'HTTP: GET /api/periodos/'
+2025-12-23 08:06:19.003 -06:00 [INF] HTTP GET /api/periodos responded 200 in 86.7083 ms
+2025-12-23 08:06:19.010 -06:00 [INF] Request finished HTTP/1.1 GET http://localhost:5011/api/periodos?limit=50&offset=0&desc=false - 200 null application/json; charset=utf-8 113.0507ms

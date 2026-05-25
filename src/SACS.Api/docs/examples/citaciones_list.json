@@ -1,0 +1,12 @@
+{
+  "rows": [
+    {
+      "id": 10,
+      "alumnoId": 123,
+      "fecha": "2025-02-02T09:00:00Z",
+      "motivo": "Reunión de tutoría",
+      "estado": "Pendiente"
+    }
+  ],
+  "total": 1
+}

@@ -1,0 +1,15 @@
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.csproj.AssemblyReference.cache
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.AssemblyInfoInputs.cache
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.AssemblyInfo.cs
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\bin\Debug\net8.0\SACS.Infrastructure.deps.json
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\bin\Debug\net8.0\SACS.Infrastructure.dll
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\bin\Debug\net8.0\SACS.Infrastructure.pdb
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\bin\Debug\net8.0\SACS.Domain.dll
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\bin\Debug\net8.0\SACS.Domain.pdb
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Inf.0AB15D65.Up2Date
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.dll
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\refint\SACS.Infrastructure.dll
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\SACS.Infrastructure.pdb
+D:\Proyectos_Personales\sacs\src\SACS.Infrastructure\obj\Debug\net8.0\ref\SACS.Infrastructure.dll
